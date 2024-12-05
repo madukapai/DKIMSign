@@ -60,7 +60,7 @@ namespace DKIMSign
                     objSmtp.Send(objMail);
                     objSmtp.Disconnect(true);
                 }
-                MessageBox.Show("Success", "Send Fail", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Success", "Send Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
